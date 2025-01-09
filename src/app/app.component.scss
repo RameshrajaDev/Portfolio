@@ -1,0 +1,25 @@
+.skill-icon {
+    font-size: 3rem; /* Make the icons larger */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  p {
+    font-size: 1rem; /* Adjust skill name size */
+    font-weight: 500;
+  }
+  
+  .section h2 {
+    font-size: 2rem; /* Section title size */
+    margin-bottom: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .skill-icon {
+      font-size: 4rem; /* Larger icons on bigger screens */
+    }
+    p {
+      font-size: 1.2rem; /* Slightly larger text for bigger screens */
+    }
+  }
+  
