@@ -1,25 +1,115 @@
 .skill-icon {
-    font-size: 3rem; /* Make the icons larger */
-    display: block;
-    margin: 0 auto;
+  font-size: 3rem;
+  /* Make the icons larger */
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1rem;
+  /* Adjust skill name size */
+  font-weight: 500;
+  color: gray;
+}
+
+.section h2 {
+  font-size: 2rem;
+  /* Section title size */
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .skill-icon {
+    font-size: 4rem;
+    /* Larger icons on bigger screens */
   }
-  
+
   p {
-    font-size: 1rem; /* Adjust skill name size */
-    font-weight: 500;
+    font-size: 1.2rem;
+    /* Slightly larger text for bigger screens */
   }
-  
-  .section h2 {
-    font-size: 2rem; /* Section title size */
-    margin-bottom: 1.5rem;
-  }
-  
-  @media (min-width: 768px) {
-    .skill-icon {
-      font-size: 4rem; /* Larger icons on bigger screens */
-    }
-    p {
-      font-size: 1.2rem; /* Slightly larger text for bigger screens */
-    }
-  }
-  
+}
+
+
+.mt-3 {
+  text-align: left !important;
+  color: gray;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+ul.list-unstyled li {
+  margin-bottom: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 0% 0% 0% 1%;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  padding: 0% 0% 0% 1%;
+}
+
+footer hr {
+  margin: 20px auto;
+  width: 80%;
+  border-color: #6c757d;
+}
+
+/* Timeline Styling */
+.timeline {
+  position: relative;
+  padding: 1rem 0;
+  border-left: 3px solid #007bff;
+  margin-left: 1.5rem;
+}
+
+.timeline-item {
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.timeline-item:before {
+  content: "";
+  position: absolute;
+  left: -0.7rem;
+  top: 0;
+  width: 1rem;
+  height: 1rem;
+  background: #007bff;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.timeline-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-item p, 
+.timeline-item ul {
+  margin: 0;
+  color: #555;
+}
+
+.timeline-item ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.timeline-item:nth-child(even) {
+  margin-left: auto;
+  margin-right: 1rem;
+  text-align: right;
+}
